@@ -8,7 +8,7 @@ class DB{
 
     public function __construct(){
         try{
-            $this->db = new PDO("mysql:host=localhost; dbname=db_aufa", "root", "");
+            $this->db = new PDO("mysql:host=localhost; dbname=db_music", "root", "");
         } catch(\Exception $e){
             die ("Error : " . $e->getMessage());
         }
