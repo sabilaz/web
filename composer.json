@@ -1,0 +1,19 @@
+{
+    "name": "aufa/oop-praktikum",
+    "description": "uts pemrograman berbasis web lanjutan",
+    "type": "project",
+    "require": {
+        "php": "^7.1"  
+    },
+    "authors": [
+        {
+            "name": "aufa",
+            "email": "rifqimuhammadaufa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "app/"
+        }
+    }
+}
